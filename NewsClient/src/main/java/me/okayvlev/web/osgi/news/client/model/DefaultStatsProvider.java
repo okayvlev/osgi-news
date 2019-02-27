@@ -1,7 +1,5 @@
 package me.okayvlev.web.osgi.news.client.model;
 
-import me.okayvlev.web.osgi.news.client.model.repository.NewsRepository;
-
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;

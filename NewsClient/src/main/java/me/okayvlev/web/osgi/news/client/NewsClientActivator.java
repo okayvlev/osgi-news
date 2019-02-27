@@ -2,7 +2,7 @@ package me.okayvlev.web.osgi.news.client;
 
 import me.okayvlev.web.osgi.news.client.model.DefaultStatsProvider;
 import me.okayvlev.web.osgi.news.client.model.StatsProvider;
-import me.okayvlev.web.osgi.news.client.model.repository.NewsRepository;
+import me.okayvlev.web.osgi.news.client.model.NewsRepository;
 import org.apache.felix.scr.annotations.*;
 import org.osgi.framework.BundleContext;
 

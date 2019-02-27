@@ -1,4 +1,4 @@
-package me.okayvlev.web.osgi.news.client.model.repository;
+package me.okayvlev.web.osgi.news.client.model;
 
 import me.okayvlev.web.osgi.news.api.NewsService;
 import me.okayvlev.web.osgi.news.api.news.Article;

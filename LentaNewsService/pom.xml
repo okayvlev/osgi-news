@@ -8,6 +8,8 @@
     <artifactId>news-lenta</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>bundle</packaging>
+
     <build>
         <plugins>
             <plugin>
@@ -28,6 +30,7 @@
                     <instructions>
                         <Import-Package>
                             me.okayvlev.web.osgi.news.api.*,
+                            me.okayvlev.web.osgi.news.service.net.*,
                             *
                         </Import-Package>
                         <Embed-Dependency>

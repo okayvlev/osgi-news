@@ -14,7 +14,7 @@ Child services can be dynamically supplied at runtime to expand the pool of news
 ## Build
 Each bundle can be assembled from its root directory with Maven using the following command:
 
-`mvn compiler:compile scr:scr bundle:bundle`
+`mvn clean install`
 
 ## Run Environment
 Your environment should support `UTF-8` charset for all Unicode characters from headlines to be correctly displayed.

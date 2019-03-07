@@ -8,6 +8,8 @@
     <artifactId>news-client</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>bundle</packaging>
+
     <build>
         <plugins>
             <plugin>
@@ -27,7 +29,8 @@
                     <finalName>NewsClient</finalName>
                     <instructions>
                         <Export-Package>
-                            me.okayvlev.web.osgi.news.api.*
+                            me.okayvlev.web.osgi.news.api.*,
+                            me.okayvlev.web.osgi.news.service.net.*
                         </Export-Package>
                         <Private-Package>
                             me.okayvlev.web.osgi.news.client.*
